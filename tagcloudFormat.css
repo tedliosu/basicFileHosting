@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+/* CSS codes modified using aid from Quackit.com and W3schools.com .*/
+
+body { padding: 10px; margin: 10px;
+       background-color:#b7ffff;
+       background-image:url(https://ignite.apache.org/images/java.png);
+       background-repeat:repeat;
+       background-position:top left;
+       background-attachment:scroll;
+       font-family:"Arial", Arial, Helvetica, sans-serif; }
+
+h2 { text-align: center; max-width: 900px; margin-top: 25px; margin-left: auto;
+     margin-right: auto; font-size: 24px; font-family: Cursive;
+     font-variant: small-caps; letter-spacing: 3px; color: #cc1414;
+     background-color: #ffcccc; }
+
+.cbox { padding: 12px; background: #b2b013; max-width: 600px; margin: auto;
+        font-family:"Book Antiqua", monospace; color: #5200b2; }
+.cdiv { margin-top: 0; padding-left: 7px; padding-right: 7px; }
+.cdiv span { text-direction: none; padding: 0px; margin: 5px; }
+.cdiv span:hover { color: #fffc00; background: #5200b2; }
+
+.f1 { font-size: 11px; line-height: 120%; }
+.f2 { font-size: 12px; line-height: 120%; }
+.f3 { font-size: 13px; line-height: 120%; }
+.f4 { font-size: 14px; line-height: 120%; }
+.f5 { font-size: 15px; line-height: 120%; }
+.f6 { font-size: 16px; line-height: 120%; }
+.f7 { font-size: 17px; line-height: 120%; }
+.f8 { font-size: 18px; line-height: 120%; }
+.f9 { font-size: 19px; line-height: 120%; }
+.f10 { font-size: 20px; line-height: 120%; }
+.f11 { font-size: 21px; line-height: 120%; }
+.f12 { font-size: 22px; line-height: 120%; }
+.f13 { font-size: 23px; line-height: 120%; }
+.f14 { font-size: 24px; line-height: 120%; }
+.f15 { font-size: 25px; line-height: 120%; }
+.f16 { font-size: 26px; line-height: 120%; }
+.f17 { font-size: 27px; line-height: 120%; }
+.f18 { font-size: 28px; line-height: 120%; }
+.f19 { font-size: 29px; line-height: 120%; }
+.f20 { font-size: 30px; line-height: 120%; }
+.f21 { font-size: 31px; line-height: 120%; }
+.f22 { font-size: 32px; line-height: 120%; }
+.f23 { font-size: 33px; line-height: 120%; }
+.f24 { font-size: 34px; line-height: 120%; }
+.f25 { font-size: 35px; line-height: 120%; }
+.f26 { font-size: 36px; line-height: 120%; }
+.f27 { font-size: 37px; line-height: 120%; }
+.f28 { font-size: 38px; line-height: 120%; }
+.f29 { font-size: 39px; line-height: 120%; }
+.f30 { font-size: 40px; line-height: 120%; }
+.f31 { font-size: 41px; line-height: 120%; }
+.f32 { font-size: 42px; line-height: 120%; }
+.f33 { font-size: 43px; line-height: 120%; }
+.f34 { font-size: 44px; line-height: 120%; }
+.f35 { font-size: 45px; line-height: 120%; }
+.f36 { font-size: 46px; line-height: 120%; }
+.f37 { font-size: 47px; line-height: 120%; }
+.f38 { font-size: 48px; line-height: 120%; }
+.f39 { font-size: 49px; line-height: 120%; }
+.f40 { font-size: 50px; line-height: 120%; }
+.f41 { font-size: 51px; line-height: 120%; }
+.f42 { font-size: 52px; line-height: 120%; }
+.f43 { font-size: 53px; line-height: 120%; }
+.f44 { font-size: 54px; line-height: 120%; }
+.f45 { font-size: 55px; line-height: 120%; }
+.f46 { font-size: 56px; line-height: 120%; }
+.f47 { font-size: 57px; line-height: 120%; }
+.f48 { font-size: 58px; line-height: 120%; }
+.f49 { font-size: 59px; line-height: 120%; }
+.f50 { font-size: 60px; line-height: 120%; }
