@@ -12,7 +12,6 @@
   <property name="severity" value="warning"/>
   <module name="TreeWalker">
     <property name="tabWidth" value="4"/>
-    <!-- <module name="FileContentsHolder"/> -->
     <module name="JavadocMethod">
       <property name="suppressLoadErrors" value="true"/>
     </module>
@@ -42,7 +41,7 @@
     <module name="EmptyForIteratorPad"/>
     <module name="MethodParamPad"/>
     <module name="NoWhitespaceAfter">
-      <property name="tokens" value="BNOT,DEC,DOT,INC,LNOT,UNARY_MINUS,UNARY_PLUS"/>
+      <property name="tokens" value="INC,DEC,UNARY_MINUS,UNARY_PLUS,BNOT,LNOT,DOT"/>
     </module>
     <module name="NoWhitespaceBefore"/>
     <module name="OperatorWrap"/>
@@ -87,6 +86,19 @@
       <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
     </module>
     <module name="UpperEll"/>
+    <module name="SuppressWithNearbyCommentFilter">
+      <property name="commentFormat" value="SUPPRESS CHECKSTYLE (\w+) FOR NEXT (\d+) LINES"/>
+      <property name="checkFormat" value="$1"/>
+      <property name="influenceFormat" value="$2"/>
+    </module>
+    <module name="SuppressWithNearbyCommentFilter">
+      <property name="commentFormat" value="CHECKSTYLE IGNORE THIS LINE"/>
+    </module>
+    <module name="SuppressWithNearbyCommentFilter">
+      <property name="commentFormat" value="CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN"/>
+      <property name="checkFormat" value="DesignForExtension"/>
+      <property name="influenceFormat" value="1"/>
+    </module>
     <module name="ParameterAssignment"/>
     <module name="RequireThis"/>
   </module>
@@ -106,18 +118,5 @@
     <property name="format" value="\s+$"/>
     <property name="message" value="Line has trailing spaces."/>
     <metadata name="net.sf.eclipsecs.core.lastEnabledSeverity" value="inherit"/>
-  </module>
-  <module name="SuppressWithNearbyCommentFilter">
-    <property name="commentFormat" value="SUPPRESS CHECKSTYLE (\w+) FOR NEXT (\d+) LINES"/>
-    <property name="checkFormat" value="$1"/>
-    <property name="influenceFormat" value="$2"/>
-  </module>
-  <module name="SuppressWithNearbyCommentFilter">
-    <property name="commentFormat" value="CHECKSTYLE IGNORE THIS LINE"/>
-  </module>
-  <module name="SuppressWithNearbyCommentFilter">
-    <property name="commentFormat" value="CHECKSTYLE: ALLOW THIS METHOD TO BE OVERRIDDEN"/>
-    <property name="checkFormat" value="DesignForExtension"/>
-    <property name="influenceFormat" value="1"/>
   </module>
 </module>
