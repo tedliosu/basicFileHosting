@@ -26,7 +26,9 @@
     <module name="MemberName"/>
     <module name="MethodName"/>
     <module name="PackageName"/>
-    <module name="ParameterName"/>
+    <module name="ParameterName">
+      <property name="accessModifiers" value="public"/>
+    </module>
     <module name="StaticVariableName"/>
     <module name="TypeName"/>
     <module name="AvoidStarImport"/>
@@ -44,7 +46,9 @@
       <property name="tokens" value="INC,DEC,UNARY_MINUS,UNARY_PLUS,BNOT,LNOT,DOT"/>
     </module>
     <module name="NoWhitespaceBefore"/>
-    <module name="OperatorWrap"/>
+    <module name="OperatorWrap">
+      <property name="tokens" value="QUESTION,COLON,EQUAL,NOT_EQUAL,DIV,PLUS,MINUS,STAR,MOD,SR,BSR,GE,GT,SL,LE,LT,BXOR,BOR,LOR,BAND,LAND,LITERAL_INSTANCEOF,TYPE_EXTENSION_AND"/>
+    </module>
     <module name="ParenPad"/>
     <module name="TypecastParenPad"/>
     <module name="WhitespaceAfter"/>
@@ -67,7 +71,9 @@
     </module>
     <module name="IllegalInstantiation"/>
     <module name="InnerAssignment"/>
-    <module name="MagicNumber"/>
+    <module name="MagicNumber">
+      <property name="constantWaiverParentToken" value="TYPECAST,METHOD_CALL,EXPR,ARRAY_INIT,UNARY_MINUS,UNARY_PLUS,ELIST,STAR,ASSIGN,PLUS,MINUS,DIV,LITERAL_NEW"/>
+    </module>
     <module name="MissingSwitchDefault"/>
     <module name="SimplifyBooleanExpression"/>
     <module name="SimplifyBooleanReturn"/>
